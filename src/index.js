@@ -1,23 +1,23 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
-function App(){
-    return (
-      <div className="App">
-        <h1>Hello CodeSandbox</h1>
-        <h2>Start editing to see some magic happen!</h2>
-      </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
+    </div>
+  );
 }
 class test extends Component {
   render() {
-    return ( 
+    return (
       <div>
         <h1>test</h1>
       </div>
-     );
+    );
   }
 }
 const rootElement = document.getElementById("root");
-ReactDOM.render(<test />, rootElement);
+ReactDOM.render(<App />, rootElement);
